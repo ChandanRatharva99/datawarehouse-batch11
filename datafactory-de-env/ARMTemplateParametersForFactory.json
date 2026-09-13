@@ -1,0 +1,15 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "datafactory-de-env"
+		},
+		"AdlsGen2_accountKey": {
+			"value": ""
+		},
+		"AdlsGen2_properties_typeProperties_url": {
+			"value": "https://sadeven.dfs.core.windows.net/"
+		}
+	}
+}
