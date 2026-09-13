@@ -1,0 +1,30 @@
+{
+	"name": "pl_setVari",
+	"properties": {
+		"activities": [
+			{
+				"name": "Set variable1",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"policy": {
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "UTCTIMINGS",
+					"value": {
+						"value": "@utcNow()",
+						"type": "Expression"
+					}
+				}
+			}
+		],
+		"variables": {
+			"UTCTIMINGS": {
+				"type": "String"
+			}
+		},
+		"annotations": []
+	}
+}
